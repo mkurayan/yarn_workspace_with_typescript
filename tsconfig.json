@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "sourceMap": true,
+    "composite": true,
+    "resolveJsonModule": true
+  },
+  "include": ["**/src/**/*"],
+  "exclude": ["**/__tests__/**/*"]
+}

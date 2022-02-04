@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "main": "dist/index",
+  "types": "dist/index",
+  "name": "cmd",
+  "version": "1.0.0",
+  "dependencies": {
+    "client": "1.0.0"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  }
+}

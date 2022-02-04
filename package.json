@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "workspaces": [
+    "cmd",
+    "client"
+  ],
+  "name": "yarn_workplace",
+  "version": "1.0.0",
+  "scripts": {
+    "client:build": "yarn workspace client build",
+    "cmd:build": "yarn workspace cmd build",
+    "clean": "rm -rf cmd/dist client/dist"
+  },
+  "keywords": [],
+  "author": "mkurayan <https://github.com/mkurayan>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "@tsconfig/recommended": "^1.0.1"
+  }
+}
